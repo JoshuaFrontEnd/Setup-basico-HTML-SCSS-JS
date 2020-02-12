@@ -1,18 +1,21 @@
 {
-  "name": "base_estructura_basica_html-scss-js",
+  "name": "base",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.4",
+    "autoprefixer": "^9.6.0",
+    "browser-sync": "^2.26.7",
+    "css-mqpacker": "^7.0.0",
     "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
-  }
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "sort-css-media-queries": "^1.4.3"
+  },
+  "description": ""
 }
